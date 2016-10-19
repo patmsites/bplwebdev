@@ -1,0 +1,105 @@
+#nav { 
+margin:0; 
+padding:0; 
+background:#808259 url(nav_bg.jpg) 0 0 repeat-x; 
+float:left; 
+width:100%; 
+border:1px solid #42432d; 
+border-width:1px 0;
+} 
+
+#nav li { 
+display:inline; 
+padding:0; 
+margin:0; 
+} 
+
+#nav a:link, 
+#nav a:visited { 
+color:#000; 
+background:#b2b580; 
+padding:20px 40px 4px 40px; 
+float:left; 
+width:auto; 
+border-right:1px solid #42432d; 
+text-decoration:none; 
+font:bold 1em/1em Arial, Helvetica, sans-serif; 
+text-transform:uppercase; 
+text-shadow: 2px 2px 2px #555; 
+} 
+
+#nav li:first-child a { 
+border-left:1px solid #42432d; 
+} 
+
+
+#nav a:hover, 
+#nav a:focus { 
+color:#fff; 
+background:#93af62; 
+} 
+
+#home #nav-home a, 
+#calendar #nav-calendar a, 
+#reunion #nav-reunion a, 
+#photos #nav-photos a, 
+#info #nav-info a, 
+{ 
+background:#e35a00; 
+color:#fff; 
+text-shadow:none; 
+} 
+#home #nav-home a:hover, 
+#calendar #nav-calendar a:hover, 
+#reunion #nav-reunion a:hover, 
+#photos #nav-photos a:hover, 
+#info #nav-info a:hover, 
+ { 
+background:#93af62; 
+} 
+
+#nav a:active { 
+background:#93af62; 
+color:#fff; 
+text-shadow:none;
+
+}
+
+table {
+	width: 800px;
+	border: 0px;
+	padding: 0px;
+}
+
+p {
+	background-color: #93af62;
+		width: 800px;
+		border: 5px;
+}
+
+h1 {
+	background-color: #93af62;
+	width: 800px;
+	border: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000;
+	text-decoration: none;
+	left: auto;
+	text-align: center;
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #360;
+	text-decoration: none;
+	left: auto;
+}
+
+a.nav2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #060;
+	text-decoration: none;
+}
+
